@@ -48,7 +48,7 @@ assert(
   bikes[2].color === "red", "expected 'red'"
 );
 assert(
-  bikes[4].brandNew() === "true", "expected 'true'"
+  bikes[4].brandNew() === true, "expected 'true'"
   // the brandNew function should return true if it was built this year (2015) - hardcode this year for now
 );
 assert(
