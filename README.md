@@ -16,7 +16,7 @@ Write tests that describe these new behaviors.
 
 
 ### Release 2:  Bikes have Mechanical Problems
-Our bike models are always in perfect working order.  In reality, bikes have problems:  flat tires, broken chains, etc.  Update the bike model, so that a bike can have multiple mechanical issues.  We should be able add issues to a bike a make repairs.  A bike should also report whether or not it's damaged.
+Our bike models are always in perfect working order.  In reality, bikes have problems:  flat tires, broken chains, etc.  Update the bike model, so that a bike can have multiple mechanical issues.  We should be able to add issues to a bike and then make repairs.  A bike should also report whether or not it's damaged.
 
 Our station objects should then be updated to account for damaged bikes.  For example, a station should not release a damaged bike.  It should be able to report how many of its bikes are damaged.  How else would damaged bikes affect a station?
 
