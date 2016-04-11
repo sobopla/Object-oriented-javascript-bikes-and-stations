@@ -8,6 +8,8 @@ In some cities, bikes are made available for short rentals.  [Stations][station 
 ### Release 0:  Design to the Specs
 Tests are provided that describe both bikes and stations.  Write code to make the tests pass.  Use the constructor functions to assign properties unique to each instance of a bike or station.  Use the constructor's prototype for properties shared among instances.
 
+Complete the bike model before moving to the station.
+
 
 ### Release 1:  Station Capacity
 As it currently stands, our stations will continue taking bikes regardless of how many bikes they already hold.  Make our model more accurate by giving each station a capacity; for example, one station might be able to store 30 bikes and another only 10.  Once a station has a capacity, it should only take bikes if it's not already full.

@@ -2,8 +2,8 @@ describe("a bike station", function() {
   var station, newerBike, olderBike, bikes
 
   beforeEach(function() {
-    newerBike = { id: "12345", color: "red", modelYear: 2016 }
-    olderBike = { id: "67890", color: "blue", modelYear: 2015 }
+    newerBike = new Bike("12345", "red", 2016);
+    olderBike = new Bike("67890", "blue", 2015);
 
     station = new Station("Divvy", "Wood & Division", [newerBike, olderBike])
   });
