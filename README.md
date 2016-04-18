@@ -26,7 +26,7 @@ Write tests that describe these new behaviors.
 
 
 ## Summary
-This challenge is another opportunity to design JavaScript objects.  We should be feeling more and more comfortable working with constructor functions and prototypes.  Checkin with an instructor if we're struggling to understand these conceptual or struggling to implement them in code.
+This challenge is another opportunity to design JavaScript objects.  We should be feeling more and more comfortable working with constructor functions and prototypes.  Checkin with an instructor if we're struggling to understand these conceptually or struggling to implement them in code.
 
 
 [station images]: https://www.google.com/search?q=bike+rental+stations&espv=2&biw=1366&bih=647&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjhuaOwsf3LAhUFOiYKHQOZCkwQsAQIGw
