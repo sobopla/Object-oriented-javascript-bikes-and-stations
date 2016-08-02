@@ -12,7 +12,7 @@ Complete the bike model before moving to the station.
 
 
 ### Release 1:  Station Capacity
-As it currently stands, our stations will continue taking bikes regardless of how many bikes they already hold.  Make our model more accurate by giving each station a capacity; for example, one station might be able to store 30 bikes and another only 10.  Once a station has reached capacity, it should only take bikes if it's not already full. Consider an edge case: what would happen if a group tried to return 5 bikes at the same time? Here is a good time to consider raising a JavaScript [Error][].
+As it currently stands, our stations will continue taking bikes regardless of how many bikes they already hold.  Make our model more accurate by giving each station a capacity; for example, one station might be able to store 30 bikes and another only 10.  A station should only take bikes if it's not already full.  Consider an edge case: what would happen if a group tried to return five bikes at the same time but the station only has room for two bikes? Here is a good time to consider raising a JavaScript [Error][].
 
 Write tests that describe these new behaviors.
 
