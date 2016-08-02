@@ -12,7 +12,7 @@ Complete the bike model before moving to the station.
 
 
 ### Release 1:  Station Capacity
-As it currently stands, our stations will continue taking bikes regardless of how many bikes they already hold.  Make our model more accurate by giving each station a capacity; for example, one station might be able to store 30 bikes and another only 10.  Once a station has a capacity, it should only take bikes if it's not already full.
+As it currently stands, our stations will continue taking bikes regardless of how many bikes they already hold.  Make our model more accurate by giving each station a capacity; for example, one station might be able to store 30 bikes and another only 10.  Once a station has reached capacity, it should only take bikes if it's not already full. Consider an edge case: what would happen if a group tried to return 5 bikes at the same time? Here is a good time to consider raising a JavaScript [Error][].
 
 Write tests that describe these new behaviors.
 
@@ -30,3 +30,4 @@ This challenge is another opportunity to design JavaScript objects.  We should b
 
 
 [station images]: https://www.google.com/search?q=bike+rental+stations&espv=2&biw=1366&bih=647&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjhuaOwsf3LAhUFOiYKHQOZCkwQsAQIGw
+[Error]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error
