@@ -6,7 +6,7 @@ In some cities, bikes are made available for short rentals.  [Stations][station 
 
 ## Releases
 ### Release 0:  Design to the Specs
-Tests are provided that describe both bikes and stations.  Write code to make the tests pass.  Use the constructor functions to assign properties unique to each instance of a bike or station.  Use the constructor's prototype for properties shared among instances.
+Tests are provided that describe both bikes and stations.  To run the tests, open the `SpecRunner.html` file in the browser.  Write code to make the tests pass.  Use the constructor functions to assign properties unique to each instance of a bike or station.  Use the constructor's prototype for properties shared among instances.
 
 Complete the bike model before moving to the station.
 
